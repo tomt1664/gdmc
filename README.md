@@ -21,4 +21,6 @@ The code requires four formatted files in the directory in which it is run: gkin
 
 In addition to the standard output, it creates three output files by default: tens.out, system.out and system.xyz. Depending on the input options it can also create the files: vacs.xyz, ints.xyz and link.xyz, which give vacancy, interstitial and interlayer di-vacancy coordinates respectively. 
 
-For the full documentation, see: 
+For the full documentation, see the wiki. 
+
+Examples of usage: <a href="http://pubs.rsc.org/en/content/articlehtml/2014/nr/c3nr06222h">Strain directed diffusion</a>
