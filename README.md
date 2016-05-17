@@ -31,4 +31,4 @@ The pytools directory contains a collection of Python scripts to perform analysi
 
 > displace.py
 
-This script calculates the displacement of a single defect as a function of simulation time. It takes information from the system.xyz trajectory file and the tens.out file. For correct usage set 
+This script calculates the displacement of a single defect as a function of simulation time. It takes information from the system.xyz trajectory file and the tens.out file. For correct usage set trajectory 1 and xyz_full off.  
