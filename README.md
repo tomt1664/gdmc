@@ -9,13 +9,13 @@ This repository contains the source code files, makefile, and an examples direct
 
 The code has been tested with the gfortran compiler, which must be available from the command line. The compiler can be changed by editing the Makefile. It is not guaranteed to work for other compilers, but it shouldn't be a problem.  To compile the code, simply type:
 
-$ make
+> $ make
 
 This creates an executable in the same directory called gdmc 
 
 The program is then run in the command line. It requires no standard input, but writes to standard output, which can be piped into an output file:
 
-$ ./gdmc > outputfile
+> $ ./gdmc > outputfile
 
 The code requires four formatted files in the directory in which it is run: gkin.dat, ens.dat, iens.dat and system.in
 
@@ -29,3 +29,6 @@ Examples of usage: <a href="http://pubs.rsc.org/en/content/articlehtml/2014/nr/c
 
 The pytools directory contains a collection of Python scripts to perform analysis and processing of the code output. 
 
+> displace.py
+
+This script calculates the displacement of a single defect as a function of simulation time. It takes information from the system.xyz trajectory file and the tens.out file. For correct usage set 
