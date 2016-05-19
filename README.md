@@ -32,3 +32,9 @@ The pytools directory contains a collection of Python scripts to perform analysi
 > displace.py
 
 This script calculates the displacement of a single defect as a function of simulation time. It takes information from the system.xyz trajectory file and the tens.out file. For correct usage set trajectory 1 and xyz_full off.  
+
+> histogram.py
+
+This script calculates histograms of mean squared displacement (MSD) by averaging over the trajectory of a diffusing defect or atom. Defect displacement and times are taken from the dist.dat file created by the displace.py script. 
+
+Two inputs are required: the histogram size, or maximum time: set with the -m flag and the bin size: set with the -b flag 
