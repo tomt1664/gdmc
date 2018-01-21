@@ -25,6 +25,8 @@ For the full documentation, see theattached wiki.
 
 Examples of usage: <a href="http://pubs.rsc.org/en/content/articlehtml/2014/nr/c3nr06222h">Strain directed diffusion</a>
 
+Animation of bulk graphite cascade annealing: https://www.youtube.com/watch?v=7xW2Fi3Mnww
+
 ##Utilities
 
 The pytools directory contains a collection of Python scripts to perform analysis and processing of the code output. 
